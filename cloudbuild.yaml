@@ -1,0 +1,13 @@
+steps:
+  - name: "gcr.io/cloud-builders/docker"
+    args:
+      [
+        "build",
+        "-t",
+        "gcr.io/$PROJECT_ID/$SERVICE_NAME:$COMMIT_SHA",
+        "./backend",
+      ]
+images:
+  - "gcr.io/$PROJECT_ID/$SERVICE_NAME:$COMMIT_SHA"
+
+# Usage: gcloud builds submit --config=cloudbuild.yaml .

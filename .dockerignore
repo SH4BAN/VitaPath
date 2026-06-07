@@ -1,0 +1,12 @@
+node_modules
+.git
+.github
+.env
+dist
+build
+coverage
+*.log
+npm-debug.log*
+pnpm-lock.yaml
+package-lock.json
+/.history

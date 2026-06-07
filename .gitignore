@@ -1,0 +1,28 @@
+# dependencies
+node_modules/
+
+# production build
+dist/
+
+# environment variables
+.env
+.env.local
+
+# logs
+*.log
+
+# editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# vite
+.vite/
+
+# cache
+.cache/
+# Local history
+.history/

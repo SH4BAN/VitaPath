@@ -1,0 +1,37 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">SAFE Child Health Platform logo</title>
+  <desc id="desc">A family inside a protective shield with a medical plus sign and SAFE wordmark.</desc>
+  <rect width="1024" height="1024" fill="transparent"/>
+  <g filter="url(#softGlow)">
+    <path d="M319 258C373 213 448 190 511 190C566 190 618 204 679 227" stroke="url(#strokeMain)" stroke-width="25" stroke-linecap="round"/>
+    <path d="M319 258C314 335 318 433 361 511C399 581 457 623 511 646C565 623 623 581 661 511C704 433 708 335 703 258" stroke="url(#strokeMain)" stroke-width="25" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M662 215H722" stroke="url(#strokeMain)" stroke-width="25" stroke-linecap="round"/>
+    <path d="M692 185V245" stroke="url(#strokeMain)" stroke-width="25" stroke-linecap="round"/>
+    <circle cx="505" cy="318" r="45" stroke="url(#strokeMain)" stroke-width="24"/>
+    <circle cx="563" cy="420" r="34" stroke="url(#strokeMain)" stroke-width="24"/>
+    <path d="M394 520C400 450 433 393 489 388C518 386 542 398 559 421" stroke="url(#strokeMain)" stroke-width="24" stroke-linecap="round"/>
+    <path d="M505 528C515 477 546 449 580 452C622 456 643 493 636 560" stroke="url(#strokeMain)" stroke-width="24" stroke-linecap="round"/>
+  </g>
+  <g filter="url(#wordGlow)">
+    <path d="M219 772C196 772 178 766 164 754C152 744 146 731 146 716H193C194 728 205 735 224 735C240 735 250 731 250 722C250 713 238 708 215 704C171 698 151 680 151 650C151 622 178 600 222 600C263 600 289 619 294 651H248C245 641 235 636 221 636C207 636 198 641 198 649C198 657 209 662 232 666C278 674 298 690 298 720C298 753 267 772 219 772Z" fill="#17134E"/>
+    <path d="M370 768H321L401 604H445L525 768H474L453 723H391L370 768ZM407 688H437L422 654L407 688Z" fill="#17134E"/>
+    <path d="M561 768V604H679V643H608V672H672V710H608V768H561Z" fill="#17134E"/>
+    <path d="M721 768V604H849V643H768V667H841V705H768V729H853V768H721Z" fill="#17134E"/>
+    <path d="M226 837H141" stroke="#7A7CF8" stroke-width="9" stroke-linecap="round"/>
+    <path d="M883 837H798" stroke="#7A7CF8" stroke-width="9" stroke-linecap="round"/>
+    <text x="512" y="849" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="33" font-weight="800" letter-spacing="7" fill="#7A7CF8">CHILD HEALTH PLATFORM</text>
+  </g>
+  <defs>
+    <linearGradient id="strokeMain" x1="314" y1="184" x2="709" y2="641" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9AA2FF"/>
+      <stop offset="0.46" stop-color="#5F61F0"/>
+      <stop offset="1" stop-color="#777DFF"/>
+    </linearGradient>
+    <filter id="softGlow" x="120" y="110" width="780" height="620" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#BEC3FF" flood-opacity="0.9"/>
+    </filter>
+    <filter id="wordGlow" x="120" y="580" width="780" height="300" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="0" stdDeviation="2" flood-color="#A7AEFF" flood-opacity="0.75"/>
+    </filter>
+  </defs>
+</svg>
