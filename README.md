@@ -1,12 +1,12 @@
-# SAFE - Smart Preventive Family Health Intelligence System
+# VITAPATH - Smart Preventive Family Health Intelligence System
 
-SAFE is a digital child health platform designed to centralize preventive healthcare records for children aged 0 to 18.
+VITAPATH is a digital child health platform designed to centralize preventive healthcare records for children aged 0 to 18.
 
-The main goal of SAFE is simple: no child should be missed from preventive care. The platform helps parents, nurses, doctors, administrators, and municipality health teams track vaccinations, routine check-ups, appointments, home visits, development milestones, notifications, and children who may need closer follow-up.
+The main goal of VITAPATH is simple: no child should be missed from preventive care. The platform helps parents, nurses, doctors, administrators, and municipality health teams track vaccinations, routine check-ups, appointments, home visits, development milestones, notifications, and children who may need closer follow-up.
 
 ## Project Context
 
-SAFE combines two challenge areas into one complete project.
+VITAPATH combines two challenge areas into one complete project.
 
 The first challenge is child preventive health monitoring: helping families and healthcare providers track vaccinations, check-ups, milestones, reminders, and missed or delayed care.
 
@@ -20,27 +20,27 @@ Child health data is often fragmented, paper-based, or stored across disconnecte
 
 At the same time, healthcare providers and municipalities may lack clear visibility into children who missed preventive care, families who need follow-up, or areas with lower vaccination coverage.
 
-SAFE solves this by bringing the data into one organized platform.
+VITAPATH solves this by bringing the data into one organized platform.
 
 ## Main Users
 
-Parents use SAFE to manage their children’s health records, view appointments, receive reminders, confirm or reschedule appointments, communicate with providers, and access a clear health timeline.
+Parents use VITAPATH to manage their children’s health records, view appointments, receive reminders, confirm or reschedule appointments, communicate with providers, and access a clear health timeline.
 
-Nurses and doctors use SAFE to manage assigned families, schedule appointments, complete home visit forms, review child health records, communicate with parents, and monitor children who need preventive follow-up.
+Nurses and doctors use VITAPATH to manage assigned families, schedule appointments, complete home visit forms, review child health records, communicate with parents, and monitor children who need preventive follow-up.
 
-Admins use SAFE to manage users, connect parents with providers, monitor system activity, and support care coordination.
+Admins use VITAPATH to manage users, connect parents with providers, monitor system activity, and support care coordination.
 
-Municipality users use SAFE to monitor population-level health data, vaccination coverage, high-risk cases, overdue care, workforce activity, and AI-generated weekly reports.
+Municipality users use VITAPATH to monitor population-level health data, vaccination coverage, high-risk cases, overdue care, workforce activity, and AI-generated weekly reports.
 
 ## Key Features
 
-SAFE supports child profile management, allowing each parent to add one or more children. Every child has an individual health record that includes vaccinations, check-ups, development milestones, appointments, home visits, and timeline events.
+VITAPATH supports child profile management, allowing each parent to add one or more children. Every child has an individual health record that includes vaccinations, check-ups, development milestones, appointments, home visits, and timeline events.
 
 The appointment system allows providers to schedule visits for vaccination, routine check-ups, home visits, dental screening, or other health needs. Parents can view upcoming and past appointments, confirm attendance, request a new time, or mark that they cannot attend.
 
 The platform includes notifications and email support for important events such as new appointments, reminders, registration, provider assignment, and missed or delayed care.
 
-SAFE also includes real-time messaging between parents and their assigned provider, as well as support communication with the admin.
+VITAPATH also includes real-time messaging between parents and their assigned provider, as well as support communication with the admin.
 
 ## Health Timeline
 
@@ -56,13 +56,13 @@ If needed, the provider can create a follow-up appointment directly from the hom
 
 ## Health Passport
 
-SAFE includes a digital Health Passport for each child. The passport summarizes the child’s key health information, including vaccinations, check-ups, milestones, appointments, recent visits, and current risk level.
+VITAPATH includes a digital Health Passport for each child. The passport summarizes the child’s key health information, including vaccinations, check-ups, milestones, appointments, recent visits, and current risk level.
 
 It also supports QR-based verification, so a healthcare provider can quickly access a temporary verified view of the child’s health passport.
 
 ## AI Features
 
-SAFE includes multiple AI-supported features.
+VITAPATH includes multiple AI-supported features.
 
 AI Risk Detection analyzes preventive health data such as missed vaccines, delayed check-ups, appointments, home visits, milestones, and provider notes. It generates a risk summary, key reasons, urgency level, recommended actions, parent-friendly message, and provider notes.
 
@@ -76,17 +76,17 @@ The AI Weekly Report helps municipality users generate a weekly public health su
 
 The Municipality Monitor gives institutions a broader view of preventive child healthcare. It shows total registered children, vaccination coverage, check-up coverage, risk distribution, high-risk children, overdue vaccinations, upcoming appointments, and healthcare worker workload.
 
-This makes SAFE useful not only for individual families, but also for public health planning.
+This makes VITAPATH useful not only for individual families, but also for public health planning.
 
 ## Parent and Provider Assignment
 
-SAFE supports a care team model where a parent or family can be assigned to a nurse or doctor. One provider can manage multiple families, while each parent has a clear care contact inside the platform.
+VITAPATH supports a care team model where a parent or family can be assigned to a nurse or doctor. One provider can manage multiple families, while each parent has a clear care contact inside the platform.
 
 This makes the workflow more realistic and closer to how preventive healthcare is coordinated in practice.
 
 ## Technical Overview
 
-SAFE is built as a full-stack web application.
+VITAPATH is built as a full-stack web application.
 
 The frontend is built with React and Vite. It provides separate role-based portals for parents, doctors, admins, and municipality users.
 
@@ -100,15 +100,15 @@ Real-time communication is supported with Socket.IO for chat. Email notification
 
 AI features are integrated through external AI APIs, including OpenAI for structured preventive risk analysis and an AI assistant/reporting workflow for parent and municipality support.
 
-## Why SAFE Matters
+## Why VITAPATH Matters
 
-SAFE helps reduce missed vaccinations, delayed check-ups, forgotten appointments, and disconnected communication between parents and healthcare providers.
+VITAPATH helps reduce missed vaccinations, delayed check-ups, forgotten appointments, and disconnected communication between parents and healthcare providers.
 
 It gives parents a clearer understanding of their child’s preventive care, helps providers prioritize follow-up, and gives municipalities better visibility into public health gaps.
 
 ## Vision
 
-The vision of SAFE is to create a connected preventive healthcare system where families, providers, and institutions work together using shared, organized, and intelligent health data.
+The vision of VITAPATH is to create a connected preventive healthcare system where families, providers, and institutions work together using shared, organized, and intelligent health data.
 
 The final goal is:
 
@@ -116,7 +116,7 @@ No child should be missed from preventive care.
 
 ## Tech Stack
 
-SAFE is built as a full-stack web application.
+VITAPATH is built as a full-stack web application.
 
 ### Frontend
 The frontend is built with React and Vite. It provides role-based interfaces for parents, doctors, admins, and municipality users.
